@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(80, 255, 185);
+}
+.main-body{
+    background-color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 20px;
+}
+h2{
+    padding: 20px;
+}
+.from-to{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: white;
+}
+img{
+    height: 2rem;
+}
+.from-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0px 2px;
+    border: 1px solid lightgrey;
+}
+#exchange-icon{
+    font-size: 1.5rem;
+}
+.dropdown{
+    height: 1.3rem; 
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 60px;
+}
+input{
+    width: 250px;
+    height: 2rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 5px;
+    border: 1px solid lightgrey;
+}
+.msg{
+    font-size: 1rem;
+}
+.convert{
+    width:95%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255, 0, 0, 0.632);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
